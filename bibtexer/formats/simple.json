@@ -1,0 +1,13 @@
+{
+    "fmt": "{authors}, {year}",
+    "authors": {
+        "fmt": "l",
+        "sep": " and ",
+        "and": " and ",
+        "elide": {
+            "letters": " et al.",
+            "limit": 1,
+            "how": "last"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "fmt": "{authors} ({year}). {title}. {journal}, {volume}, {pages}.",
+    "authors": {
+        "fmt": "l, F.[ M.]",
+        "sep": ", ",
+        "and": " & ",
+        "elide": {
+            "letters": " ... & ",
+            "limit": 8,
+            "how": "before-last"
+        }
+    }
+}
